@@ -1,0 +1,71 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Local backups and Python cache
+*.bak
+*.bak2
+__pycache__/
+*.py[cod]
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases and backups
+/database/*.sqlite
+/database/*.sqlite-*
+
+# Source-project database exports; may contain K3 data
+/db-data.sql
+/db.sql
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases and database exports
+/database/*.sqlite
+/database/*.sqlite-*
+/db.sql
+/db-data.sql
+
+# Runtime files
+/storage/logs/*
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*.php
+
+# Local debugging scripts
+/debug.php
+/test_fetch.php
+
+# Local backup
+/.gitignore.backup
