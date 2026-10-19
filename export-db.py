@@ -1,9 +1,9 @@
 import sqlite3
 from pathlib import Path
 
-db_path = Path("database/database.sqlite")
+db_path = Path("database/traininglimbahb3.sqlite")
 if not db_path.exists():
-    raise SystemExit("ERROR: database/database.sqlite tidak ditemukan")
+    raise SystemExit("ERROR: database/traininglimbahb3.sqlite tidak ditemukan")
 
 conn = sqlite3.connect(db_path)
 conn.row_factory = sqlite3.Row
